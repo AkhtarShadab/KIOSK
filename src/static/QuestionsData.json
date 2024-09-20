@@ -1,0 +1,460 @@
+{
+    "questionnaire": {
+      "sections": [
+        {
+          "section_name": "Self-Assessment of Interests and Aspirations",
+          "questions": [
+            {
+              "question_id": "1",
+              "question_text": "Think about a project or assignment you worked on in the past year that you really enjoyed. What was it about, and why did you enjoy it?",
+              "options": [
+                "a) Solving a complex problem, like a challenging math problem or a physics experiment.",
+                "b) Being creative, such as writing a story, designing a poster, or making a presentation.",
+                "c) Teamwork and collaboration, like organizing an event or working on a group project.",
+                "d) Practical work, like a lab experiment, a coding project, or a case study in business or economics.",
+                "e) Understanding people or society, such as a debate, a history project, or a social science study."
+              ],
+              "scoring": {
+                "a": { "STEM": 5, "Business": 3 },
+                "b": { "Creative Arts": 5, "Business": 3 },
+                "c": { "Business": 5, "Social Sciences": 3 },
+                "d": { "STEM": 5, "Business": 4 },
+                "e": { "Social Sciences": 5, "Creative Arts": 3 }
+              }
+            },
+            {
+              "question_id": "2",
+              "question_text": "When you have free time, what kind of activities do you naturally gravitate towards?",
+              "options": [
+                "a) Reading books or articles on science, technology, or mathematics.",
+                "b) Writing stories, poems, or journaling your thoughts.",
+                "c) Drawing, painting, or designing something new.",
+                "d) Playing strategic games like chess, Sudoku, or video games that require problem-solving.",
+                "e) Volunteering, helping others, or participating in community service activities.",
+                "f) Building or fixing things, like assembling gadgets, coding, or doing DIY projects.",
+                "g) Playing sports, exercising, or participating in outdoor activities.",
+                "h) Discussing current events, politics, or social issues with friends or family."
+              ],
+              "scoring": {
+                "a": { "STEM": 5 },
+                "b": { "Creative Arts": 5 },
+                "c": { "Creative Arts": 5 },
+                "d": { "STEM": 4 },
+                "e": { "Social Sciences": 5 },
+                "f": { "STEM": 5 },
+                "g": { "Business": 4 },
+                "h": { "Social Sciences": 5 }
+              }
+            },
+            {
+              "question_id": "3",
+              "question_text": "Think of a time when you had to choose between several extracurricular activities. Which activity did you choose, and why?",
+              "options": [
+                "a) A science fair or a math competition because you enjoy intellectual challenges.",
+                "b) A literary or debate competition because you like expressing ideas and arguing points.",
+                "c) A cultural event like a play, music performance, or art exhibition because you value creativity.",
+                "d) A sports tournament because you enjoy physical challenges and teamwork.",
+                "e) A social or community service event because you care about making a difference in society."
+              ],
+              "scoring": {
+                "a": { "STEM": 5 },
+                "b": { "Creative Arts": 4, "Social Sciences": 3 },
+                "c": { "Creative Arts": 5 },
+                "d": { "Business": 4 },
+                "e": { "Social Sciences": 5 }
+              }
+            },
+            {
+              "question_id": "4",
+              "question_text": "If you had to spend a whole day doing one type of activity, which would you choose?",
+              "options": [
+                "a) Researching and learning about a new scientific concept or technology.",
+                "b) Writing a blog post, article, or creative piece.",
+                "c) Creating a digital or physical artwork, like a graphic design or a sculpture.",
+                "d) Solving puzzles, coding, or working on a technical project.",
+                "e) Organizing an event or leading a team project.",
+                "f) Helping someone with their problems or volunteering for a cause."
+              ],
+              "scoring": {
+                "a": { "STEM": 5 },
+                "b": { "Creative Arts": 5 },
+                "c": { "Creative Arts": 5 },
+                "d": { "STEM": 5 },
+                "e": { "Business": 4 },
+                "f": { "Social Sciences": 5 }
+              }
+            }
+          ]
+        },
+        {
+          "section_name": "Personality and Emotional Quotient (EQ)",
+          "questions": [
+            {
+              "question_id": "5",
+              "question_text": "Think of a time when you faced a major challenge or setback. How did you respond?",
+              "options": [
+                "a) I analyzed the situation, figured out what went wrong, and made a plan to overcome it.",
+                "b) I felt stressed but managed to push through by focusing on the solution.",
+                "c) I discussed the problem with someone I trust to get their advice and support.",
+                "d) I felt overwhelmed and struggled to cope with the situation.",
+                "e) I decided to take a break and return to the problem with a fresh perspective."
+              ],
+              "scoring": {
+                "a": { "EQ": 5 },
+                "b": { "EQ": 4 },
+                "c": { "EQ": 4 },
+                "d": { "EQ": 2 },
+                "e": { "EQ": 3 }
+              }
+            },
+            {
+              "question_id": "6",
+              "question_text": "Describe a situation where you had to make a difficult decision. What was your approach?",
+              "options": [
+                "a) I carefully weighed all the options and considered the long-term consequences.",
+                "b) I trusted my instincts and went with what felt right.",
+                "c) I sought advice from mentors, teachers, or family members before deciding.",
+                "d) I used logical reasoning and data to make an informed choice.",
+                "e) I made a quick decision based on what seemed most practical at the time."
+              ],
+              "scoring": {
+                "a": { "EQ": 5 },
+                "b": { "EQ": 4 },
+                "c": { "EQ": 4 },
+                "d": { "EQ": 5 },
+                "e": { "EQ": 3 }
+              }
+            },
+            {
+              "question_id": "7",
+              "question_text": "Recall a time when you received constructive criticism. How did you handle it?",
+              "options": [
+                "a) I took the feedback seriously and used it to improve my work.",
+                "b) I felt a bit hurt but understood the importance of the feedback.",
+                "c) I discussed the feedback with the person who gave it to better understand their perspective.",
+                "d) I felt defensive and explained why I did things the way I did.",
+                "e) I initially ignored the criticism but later reflected on it and tried to improve."
+              ],
+              "scoring": {
+                "a": { "EQ": 5 },
+                "b": { "EQ": 4 },
+                "c": { "EQ": 4 },
+                "d": { "EQ": 2 },
+                "e": { "EQ": 3 }
+              }
+            },
+            {
+              "question_id": "8",
+              "question_text": "Describe an experience where you had to work with others to achieve a common goal. How did you contribute to the team?",
+              "options": [
+                "a) I took the lead in organizing and coordinating the team’s efforts.",
+                "b) I contributed ideas and helped guide the team towards a solution.",
+                "c) I focused on completing my assigned tasks to ensure the team’s success.",
+                "d) I encouraged collaboration and ensured that everyone’s voice was heard.",
+                "e) I resolved conflicts within the team and kept everyone motivated."
+              ],
+              "scoring": {
+                "a": { "EQ": 5 },
+                "b": { "EQ": 4 },
+                "c": { "EQ": 4 },
+                "d": { "EQ": 5 },
+                "e": { "EQ": 5 }
+              }
+            },
+            {
+              "question_id": "9",
+              "question_text": "Think of a time when you experienced failure. How did it affect you, and what did you do next?",
+              "options": [
+                "a) I analyzed my mistakes and made a plan to improve and try again.",
+                "b) I felt disappointed but decided to focus on other opportunities.",
+                "c) I sought feedback from others to understand what went wrong and how to improve.",
+                "d) I felt demotivated and found it hard to move forward.",
+                "e) I reassessed my strengths and interests and considered alternative paths."
+              ],
+              "scoring": {
+                "a": { "EQ": 5 },
+                "b": { "EQ": 4 },
+                "c": { "EQ": 4 },
+                "d": { "EQ": 2 },
+                "e": { "EQ": 4 }
+              }
+            }
+          ]
+        },
+        {
+          "section_name": "Aptitude and Intelligence Quotient (IQ)",
+          "questions": [
+            {
+              "question_id": "10",
+              "question_text": "Think of a problem you recently solved, whether in academics or daily life. How did you approach solving it?",
+              "options": [
+                "a) I broke down the problem into smaller, manageable parts.",
+                "b) I brainstormed multiple possible solutions before choosing the best one.",
+                "c) I relied on past experiences and methods that have worked before.",
+                "d) I thought creatively and considered unconventional solutions.",
+                "e) I asked others for their input or advice before deciding on a solution."
+              ],
+              "scoring": {
+                "a": { "IQ": 5 },
+                "b": { "IQ": 5 },
+                "c": { "IQ": 4 },
+                "d": { "IQ": 4 },
+                "e": { "IQ": 3 }
+              }
+            },
+            {
+              "question_id": "11",
+              "question_text": "Describe a time when you had to learn something new quickly. What strategy did you use?",
+              "options": [
+                "a) I started by understanding the basic concepts before diving deeper into details.",
+                "b) I used online resources, like tutorials or videos, to get up to speed.",
+                "c) I asked for help from a teacher or a knowledgeable friend.",
+                "d) I practiced the new concept repeatedly until I felt confident.",
+                "e) I connected the new information to something I already knew to make learning easier."
+              ],
+              "scoring": {
+                "a": { "IQ": 5 },
+                "b": { "IQ": 4 },
+                "c": { "IQ": 4 },
+                "d": { "IQ": 4 },
+                "e": { "IQ": 5 }
+              }
+            },
+            {
+              "question_id": "12",
+              "question_text": "Think about a recent exam or test you took. How did you prepare for it?",
+              "options": [
+                "a) I created a detailed study plan and stuck to it.",
+                "b) I focused on practicing problems and past papers.",
+                "c) I revised the key concepts and notes multiple times.",
+                "d) I studied in a group and discussed difficult topics with friends.",
+                "e) I used mnemonic devices or creative methods to remember information."
+              ],
+              "scoring": {
+                "a": { "IQ": 5 },
+                "b": { "IQ": 4 },
+                "c": { "IQ": 4 },
+                "d": { "IQ": 4 },
+                "e": { "IQ": 4 }
+              }
+            },
+            {
+              "question_id": "13",
+              "question_text": "Describe a situation where you had to adapt to a new or unexpected change. How did you manage it?",
+              "options": [
+                "a) I quickly adjusted my plans and focused on the new situation.",
+                "b) I took some time to understand the change and then adapted accordingly.",
+                "c) I relied on support from others to help me navigate the change.",
+                "d) I found the change challenging but managed to cope with it over time.",
+                "e) I embraced the change and looked for new opportunities it presented."
+              ],
+              "scoring": {
+                "a": { "IQ": 5 },
+                "b": { "IQ": 4 },
+                "c": { "EQ": 4 },
+                "d": { "IQ": 3 },
+                "e": { "IQ": 4 }
+              }
+            }
+          ]
+        },
+        {
+          "section_name": "Career Preferences and Goals",
+          "questions": [
+            {
+              "question_id": "14",
+              "question_text": "Imagine you’ve been given the opportunity to start your own project or business. What would it be about, and why?",
+              "options": [
+                "a) A tech startup developing innovative software or apps.",
+                "b) A social enterprise addressing a community issue or environmental problem.",
+                "c) A creative agency offering design, writing, or marketing services.",
+                "d) A consultancy providing expert advice in a specialized field like finance, law, or healthcare.",
+                "e) A research-based project focusing on scientific or technological advancements."
+              ],
+              "scoring": {
+                "a": { "STEM": 5, "Business": 4 },
+                "b": { "Social Sciences": 5, "Business": 4 },
+                "c": { "Creative Arts": 5, "Business": 4 },
+                "d": { "Business": 5 },
+                "e": { "STEM": 5, "Research": 5 }
+              }
+            },
+            {
+              "question_id": "15",
+              "question_text": "Where do you see yourself five years from now in your career?",
+              "options": [
+                "a) Working as a professional in a specialized field (e.g., engineering, medicine, law).",
+                "b) Leading a team or managing projects in a corporate or startup environment.",
+                "c) Running my own business or startup, possibly in tech or creative industries.",
+                "d) Engaging in research, innovation, or further studies in my field of interest.",
+                "e) Contributing to society through public service, education, or social work."
+              ],
+              "scoring": {
+                "a": { "STEM": 5, "Healthcare": 4, "Law": 4 },
+                "b": { "Business": 5 },
+                "c": { "Business": 5, "Creative Arts": 4 },
+                "d": { "Research": 5 },
+                "e": { "Social Sciences": 5 }
+              }
+            },
+            {
+              "question_id": "16",
+              "question_text": "Describe a career that you have always admired. What about it appeals to you?",
+              "options": [
+                "a) A career in technology or engineering because it involves innovation and problem-solving.",
+                "b) A creative career like writing, design, or filmmaking because it allows for self-expression.",
+                "c) A leadership role in business or management because of the challenge and responsibility it entails.",
+                "d) A career in healthcare or social work because it focuses on helping others.",
+                "e) A research-oriented career because it involves discovering new knowledge and advancing a field."
+              ],
+              "scoring": {
+                "a": { "STEM": 5, "Business": 4 },
+                "b": { "Creative Arts": 5 },
+                "c": { "Business": 5 },
+                "d": { "Healthcare": 5, "Social Sciences": 4 },
+                "e": { "Research": 5 }
+              }
+            }
+          ]
+        },
+        {
+          "section_name": "Skillset Evaluation",
+          "questions": [
+            {
+              "question_id": "17",
+              "question_text": "Think of a time when you used a technical skill to complete a task or solve a problem. What was the skill, and how did you use it?",
+              "options": [
+                "a) Coding: I wrote a program to automate a task or solve a problem.",
+                "b) Data Analysis: I used statistical tools to analyze data and draw conclusions.",
+                "c) Graphic Design: I created visual content for a project or event.",
+                "d) Writing: I wrote an article, essay, or content for a website or publication.",
+                "e) Financial Planning: I managed a budget or financial plan for a project or event.",
+                "f) Public Speaking: I delivered a presentation or speech in front of an audience.",
+                "g) Project Management: I organized and led a team to complete a project on time.",
+                "h) Marketing: I developed and executed a marketing plan or campaign.",
+                "i) Networking (IT): I set up or maintained a computer network or system.",
+                "j) Laboratory Techniques: I conducted experiments or tests in a scientific setting."
+              ],
+              "scoring": {
+                "a": { "STEM": 5 },
+                "b": { "STEM": 5 },
+                "c": { "Creative Arts": 5 },
+                "d": { "Creative Arts": 5 },
+                "e": { "Business": 4 },
+                "f": { "Business": 4 },
+                "g": { "Business": 5 },
+                "h": { "Business": 4 },
+                "i": { "STEM": 5 },
+                "j": { "STEM": 5 }
+              }
+            },
+            {
+              "question_id": "18",
+              "question_text": "Describe a situation where you had to use a soft skill to navigate a challenging situation. What was the skill, and how did you use it?",
+              "options": [
+                "a) Communication: I effectively conveyed ideas or resolved a conflict.",
+                "b) Leadership: I led a team or took charge of a project in a difficult situation.",
+                "c) Time Management: I managed my time efficiently to meet deadlines.",
+                "d) Teamwork: I collaborated with others to achieve a common goal.",
+                "e) Adaptability: I adjusted to a sudden change or unexpected challenge.",
+                "f) Problem-Solving: I found a creative solution to a complex problem.",
+                "g) Creativity: I came up with an innovative idea or approach.",
+                "h) Conflict Resolution: I mediated a dispute or disagreement between others.",
+                "i) Emotional Intelligence: I understood and managed my emotions and those of others.",
+                "j) Decision Making: I made a critical decision in a time-sensitive situation."
+              ],
+              "scoring": {
+                "a": { "EQ": 5 },
+                "b": { "EQ": 5 },
+                "c": { "EQ": 4 },
+                "d": { "EQ": 4 },
+                "e": { "EQ": 4 },
+                "f": { "IQ": 5 },
+                "g": { "Creative Arts": 5 },
+                "h": { "EQ": 5 },
+                "i": { "EQ": 5 },
+                "j": { "EQ": 5 }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "scoring": {
+      "weights": {
+        "Interests and Aspirations": 20,
+        "Personality and EQ": 20,
+        "Aptitude and IQ": 20,
+        "Career Preferences and Goals": 20,
+        "Skillset Evaluation": 20
+      },
+      "inclination_multiplier": 1.1
+    },
+    "outcomes": {
+      "categories": {
+        "STEM": {
+          "min_score": 80,
+          "career_paths": ["Engineering", "Technology", "Research", "Healthcare"]
+        },
+        "Creative Arts": {
+          "min_score": 80,
+          "career_paths": ["Design", "Writing", "Filmmaking", "Advertising"]
+        },
+        "Business": {
+          "min_score": 80,
+          "career_paths": [
+            "Management",
+            "Entrepreneurship",
+            "Marketing",
+            "Finance"
+          ]
+        },
+        "Social Sciences": {
+          "min_score": 80,
+          "career_paths": [
+            "Social Work",
+            "Public Administration",
+            "Law",
+            "Education"
+          ]
+        },
+        "Healthcare": {
+          "min_score": 80,
+          "career_paths": ["Medicine", "Nursing", "Healthcare Management"]
+        },
+        "Research": {
+          "min_score": 80,
+          "career_paths": ["Scientist", "Professor", "Research Analyst"]
+        }
+      },
+      "lifestyle_alignment": [
+        {
+          "preference": "Structured work environment",
+          "career_paths": ["Business", "Healthcare", "Law"]
+        },
+        {
+          "preference": "Flexible work environment",
+          "career_paths": ["Entrepreneurship", "Creative Arts", "Research"]
+        },
+        {
+          "preference": "Dynamic and fast-paced",
+          "career_paths": ["Business", "Entrepreneurship", "Tech"]
+        },
+        {
+          "preference": "Community-oriented",
+          "career_paths": ["Social Work", "Education", "Public Administration"]
+        }
+      ]
+    },
+    "report_generation": {
+      "final_report": {
+        "sections": [
+          "Section-wise Scores",
+          "Top Career Matches",
+          "Career Path Suggestions",
+          "Lifestyle Alignment",
+          "Development Areas"
+        ]
+      }
+    }
+  }
