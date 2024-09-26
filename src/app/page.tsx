@@ -27,7 +27,7 @@ export default function Home() {
       <div className="relative flex w-full max-w-md flex-col items-center justify-center overflow-hidden p-8 bg-white shadow-lg rounded-lg dark:bg-gray-800 dark:shadow-2xl border border-gray-300 dark:border-gray-700">
         <GradualSpacing
           className="mb-8 font-display text-center text-4xl font-bold tracking-[-0.05em] text-gray-900 dark:text-gray-100"
-          text="Login"
+          text="Registration Form"
         />
         <Particles
           className="absolute inset-0 z-0" // Position the particles in the background
@@ -37,21 +37,39 @@ export default function Home() {
           refresh // Ensures particles refresh on theme change
         />
         <div className="relative z-10 flex flex-col items-center space-y-4 w-full">
-          {/* Input field 1 */}
+          {/* Input field 1: User_ID */}
           <input
             type="text"
-            placeholder="Username"
+            placeholder="User_ID"
             className="w-full p-3 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 dark:text-gray-100 dark:bg-gray-900"
           />
-          {/* Input field 2 */}
+          {/* Input field 2: Age */}
           <input
-            type="password"
-            placeholder="Password"
+            type="number"
+            placeholder="Age"
+            className="w-full p-3 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 dark:text-gray-100 dark:bg-gray-900"
+          />
+          {/* Input field 3: Gender */}
+          <select
+            className="w-full p-3 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 dark:text-gray-100 dark:bg-gray-900"
+            defaultValue=""
+          >
+            <option value="" disabled>
+              Select Gender
+            </option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+          {/* Input field 4: State of residence */}
+          <input
+            type="text"
+            placeholder="State of Residence"
             className="w-full p-3 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 dark:text-gray-100 dark:bg-gray-900"
           />
           {/* Rainbow Button */}
-          <RainbowButton  onClick={handleButtonClick}>
-            Log In
+          <RainbowButton onClick={handleButtonClick}>
+            Register
           </RainbowButton>
         </div>
       </div>
