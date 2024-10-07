@@ -2,793 +2,166 @@
     "questions": [
         {
             "question_id": "1",
-            "question_text": "Do you often come up with new ways to approach a challenge?",
+            "question_text": "I get upset easily.",
             "options": [
                 "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
+                "Slightly Disagree",
+                "Neutral or Cannot Decide",
+                "Slightly Agree",
                 "Strongly Agree"
             ]
         },
         {
             "question_id": "2",
-            "question_text": "When faced with a problem, do you usually think of multiple solutions?",
+            "question_text": "I enjoy being part of a group.",
             "options": [
                 "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
+                "Slightly Disagree",
+                "Neutral or Cannot Decide",
+                "Slightly Agree",
                 "Strongly Agree"
             ]
         },
         {
             "question_id": "3",
-            "question_text": "Do others come to you for creative ideas or solutions?",
+            "question_text": "I like to solve complex problems.",
             "options": [
                 "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
+                "Slightly Disagree",
+                "Neutral or Cannot Decide",
+                "Slightly Agree",
                 "Strongly Agree"
             ]
         },
         {
             "question_id": "4",
-            "question_text": "Do you find yourself constantly asking 'why' and 'how'?",
+            "question_text": "I believe that others have good intentions.",
             "options": [
                 "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
+                "Slightly Disagree",
+                "Neutral or Cannot Decide",
+                "Slightly Agree",
                 "Strongly Agree"
             ]
         },
         {
             "question_id": "5",
-            "question_text": "Are you eager to learn more about things that are unfamiliar to you?",
+            "question_text": "I am always prepared.",
             "options": [
                 "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
+                "Slightly Disagree",
+                "Neutral or Cannot Decide",
+                "Slightly Agree",
                 "Strongly Agree"
             ]
         },
         {
             "question_id": "6",
-            "question_text": "Do you often seek out new experiences or knowledge for the joy of discovery?",
+            "question_text": "I have a low opinion of myself.",
             "options": [
                 "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
+                "Slightly Disagree",
+                "Neutral or Cannot Decide",
+                "Slightly Agree",
                 "Strongly Agree"
             ]
         },
         {
             "question_id": "7",
-            "question_text": "Do you carefully consider different perspectives before making decisions?",
+            "question_text": "I have a natural talent for influencing people.",
             "options": [
                 "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
+                "Slightly Disagree",
+                "Neutral or Cannot Decide",
+                "Slightly Agree",
                 "Strongly Agree"
             ]
         },
         {
             "question_id": "8",
-            "question_text": "Are you open to changing your mind when presented with new evidence?",
+            "question_text": "I enjoy the beauty of nature.",
             "options": [
                 "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
+                "Slightly Disagree",
+                "Neutral or Cannot Decide",
+                "Slightly Agree",
                 "Strongly Agree"
             ]
         },
         {
             "question_id": "9",
-            "question_text": "Do you weigh pros and cons thoroughly before taking action?",
+            "question_text": "I try to anticipate the needs of others.",
             "options": [
                 "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
+                "Slightly Disagree",
+                "Neutral or Cannot Decide",
+                "Slightly Agree",
                 "Strongly Agree"
             ]
         },
         {
             "question_id": "10",
-            "question_text": "Do you actively seek out opportunities to learn new skills or information?",
+            "question_text": "I can be trusted to keep my promises.",
             "options": [
                 "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
+                "Slightly Disagree",
+                "Neutral or Cannot Decide",
+                "Slightly Agree",
                 "Strongly Agree"
             ]
         },
         {
             "question_id": "11",
-            "question_text": "Do you enjoy studying subjects even when they're not directly useful?",
+            "question_text": "I get irritated easily.",
             "options": [
                 "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
+                "Slightly Disagree",
+                "Neutral or Cannot Decide",
+                "Slightly Agree",
                 "Strongly Agree"
             ]
         },
         {
             "question_id": "12",
-            "question_text": "Do you feel a sense of accomplishment when you've mastered something new?",
+            "question_text": "I have a lot of fun.",
             "options": [
                 "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
+                "Slightly Disagree",
+                "Neutral or Cannot Decide",
+                "Slightly Agree",
                 "Strongly Agree"
             ]
         },
         {
             "question_id": "13",
-            "question_text": "Do people often ask for your advice because you provide a balanced view?",
+            "question_text": "I like to visit new places.",
             "options": [
                 "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
+                "Slightly Disagree",
+                "Neutral or Cannot Decide",
+                "Slightly Agree",
                 "Strongly Agree"
             ]
         },
         {
             "question_id": "14",
-            "question_text": "Are you able to see the bigger picture in situations where others might focus on details?",
+            "question_text": "I love to help others.",
             "options": [
                 "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
+                "Slightly Disagree",
+                "Neutral or Cannot Decide",
+                "Slightly Agree",
                 "Strongly Agree"
             ]
         },
         {
             "question_id": "15",
-            "question_text": "Do you help others make sense of their challenges by offering a broad understanding?",
+            "question_text": "I set high standards for myself and others.",
             "options": [
                 "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "16",
-            "question_text": "Do you confront your fears and take action even when it's difficult?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "17",
-            "question_text": "Have you ever stood up for what you believed in, despite knowing there might be negative consequences?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "18",
-            "question_text": "Do you tackle challenges head-on rather than avoid them?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "19",
-            "question_text": "Do you complete tasks even when they become difficult or boring?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "20",
-            "question_text": "Are you determined to achieve your goals, even when progress is slow?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "21",
-            "question_text": "Do you push through obstacles rather than give up easily?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "22",
-            "question_text": "Do you speak your mind and share your thoughts even when it's uncomfortable?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "23",
-            "question_text": "Are you true to your values, even when it's inconvenient?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "24",
-            "question_text": "Do you present yourself authentically in all situations?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "25",
-            "question_text": "Do you approach life with enthusiasm and excitement?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "26",
-            "question_text": "Do you often feel energetic and motivated to take on new activities?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "27",
-            "question_text": "Do others describe you as lively or full of energy?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "28",
-            "question_text": "Do you make time for close, meaningful relationships in your life?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "29",
-            "question_text": "Do you express affection and care for the people you love?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "30",
-            "question_text": "Are you deeply concerned with the well-being of your loved ones?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "31",
-            "question_text": "Do you often go out of your way to help others?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "32",
-            "question_text": "Are you willing to help even when there\u2019s no direct benefit to you?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "33",
-            "question_text": "Do you find joy in doing good deeds for others?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "34",
-            "question_text": "Are you good at understanding and managing other people's emotions?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "35",
-            "question_text": "Do you often know what others are feeling even when they don't say it?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "36",
-            "question_text": "Can you adapt your behavior in social situations to fit the needs of others?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "37",
-            "question_text": "Do you enjoy working in groups to achieve common goals?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "38",
-            "question_text": "Do you take responsibility for your part in group projects?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "39",
-            "question_text": "Are you willing to sacrifice personal recognition for the success of the group?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "40",
-            "question_text": "Do you treat everyone with equal respect, regardless of who they are?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "41",
-            "question_text": "Do you make sure everyone gets a fair chance when you\u2019re in a position of power?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "42",
-            "question_text": "Do you work to resolve conflicts fairly, ensuring no one is favored unfairly?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "43",
-            "question_text": "Do you often take charge in group situations to keep things organized?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "44",
-            "question_text": "Are you good at motivating others and helping them achieve their potential?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "45",
-            "question_text": "Do you take responsibility for the group\u2019s outcomes, good or bad?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "46",
-            "question_text": "Are you able to let go of grudges and move on from past wrongs?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "47",
-            "question_text": "Do you believe that everyone deserves a second chance?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "48",
-            "question_text": "Do you often focus on the future rather than dwelling on negative past experiences?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "49",
-            "question_text": "Do you avoid seeking attention or praise for your achievements?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "50",
-            "question_text": "Are you comfortable acknowledging your mistakes and weaknesses?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "51",
-            "question_text": "Do you prefer to let your actions speak for themselves rather than boast?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "52",
-            "question_text": "Do you plan ahead and think about the consequences before acting?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "53",
-            "question_text": "Are you careful not to take unnecessary risks?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "54",
-            "question_text": "Do you make decisions based on practical, long-term outcomes rather than impulsive desires?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "55",
-            "question_text": "Are you able to control your emotions in stressful situations?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "56",
-            "question_text": "Do you have strong self-discipline when it comes to maintaining good habits?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "57",
-            "question_text": "Can you resist temptation even when it's difficult?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "58",
-            "question_text": "Do you feel inspired by the beauty of nature, art, or other people's talents?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "59",
-            "question_text": "Do you find joy in recognizing excellence in others?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "60",
-            "question_text": "Are you often moved by the wonder of the world around you?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "61",
-            "question_text": "Do you frequently take time to reflect on the things you're grateful for?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "62",
-            "question_text": "Do you often thank others for their kindness and support?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "63",
-            "question_text": "Do you make it a habit to appreciate both big and small things in life?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "64",
-            "question_text": "Are you optimistic about the future, even when things are tough?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "65",
-            "question_text": "Do you believe that your efforts will lead to positive outcomes?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "66",
-            "question_text": "Do you find yourself looking for silver linings in difficult situations?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "67",
-            "question_text": "Do you enjoy making others laugh and bringing joy to their lives?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "68",
-            "question_text": "Do you use humor to help diffuse tense situations?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "69",
-            "question_text": "Can you laugh at yourself and find humor in everyday events?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "70",
-            "question_text": "Do you feel a deep connection to something greater than yourself?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "71",
-            "question_text": "Do you find comfort or guidance in your spiritual beliefs?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
-                "Strongly Agree"
-            ]
-        },
-        {
-            "question_id": "72",
-            "question_text": "Are you motivated by a sense of purpose or meaning in life?",
-            "options": [
-                "Strongly Disagree",
-                "Disagree",
-                "Neutral",
-                "Agree",
+                "Slightly Disagree",
+                "Neutral or Cannot Decide",
+                "Slightly Agree",
                 "Strongly Agree"
             ]
         }
