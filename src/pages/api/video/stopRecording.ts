@@ -6,8 +6,10 @@ import dbConnect from '@/lib/dbConnect';
 import path from 'path';
 import fs from 'fs';
 
+// Define the path to the `uploads` folder inside the `public` directory
+const uploadDir = path.join(process.cwd(), 'public', 'uploads');
+
 // Ensure the `uploads` folder exists
-const uploadDir = path.join(process.cwd(), 'uploads');
 if (!fs.existsSync(uploadDir)) {
   fs.mkdirSync(uploadDir, { recursive: true });
 }
@@ -65,7 +67,7 @@ export default async function handler(req: NextApiRequest & { file: Express.Mult
     }
 
     // Get the file path for the uploaded video
-    const videoPath = path.join('/uploads', req.file.filename);
+    const videoPath = path.join('/uploads', req.file.filename); // This is the relative path that will be used for serving the file
 
     // Update the user document with the video file path
     const user = await User.findById(userId);

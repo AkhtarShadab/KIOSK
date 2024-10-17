@@ -71,6 +71,11 @@ export default function AdminPage() {
     }
   };
 
+  // Navigate to /activity page
+  const handleNavigateToActivity = () => {
+    router.push("/activity");
+  };
+
   return (
     <div className="p-8 bg-gray-100 min-h-screen">
       <h1 className="text-4xl font-bold mb-6 text-center">Admin Dashboard</h1>
@@ -105,7 +110,7 @@ export default function AdminPage() {
             Add Options
           </RainbowButton>
           <span> </span>
-          <RainbowButton onClick={handleCreateQuestion} >
+          <RainbowButton onClick={handleCreateQuestion}>
             Create Question
           </RainbowButton>
         </div>
@@ -116,7 +121,9 @@ export default function AdminPage() {
               <h3 className="font-semibold">Question ID: {question.question_id}</h3>
               <p>Question: {question.question_text}</p>
               <p>Options: {question.options.join(", ")}</p>
-              <RainbowButton onClick={() => handleDeleteQuestion(question._id)}>Delete</RainbowButton>
+              <RainbowButton onClick={() => handleDeleteQuestion(question._id)}>
+                Delete
+              </RainbowButton>
             </div>
           ))}
         </div>
@@ -146,12 +153,19 @@ export default function AdminPage() {
               )}
 
               {/* Delete User Button */}
-              <RainbowButton  onClick={() => handleDeleteUser(user._id)}>
+              <RainbowButton onClick={() => handleDeleteUser(user._id)}>
                 Delete User
               </RainbowButton>
             </div>
           ))}
         </div>
+      </div>
+
+      {/* Navigate to Activity Button */}
+      <div className="mt-8">
+        <RainbowButton onClick={handleNavigateToActivity}>
+          Go to Activity
+        </RainbowButton>
       </div>
     </div>
   );

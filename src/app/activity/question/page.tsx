@@ -56,7 +56,11 @@ export default function QuestionsPage() {
       try {
         const response = await fetch("/api/question/read");
         if (response.ok) {
-          const questionsData = await response.json();
+          let questionsData = await response.json();
+
+          // Sort questions by `question_id` to ensure correct order
+          questionsData = questionsData.sort((a: any, b: any) => a.question_id - b.question_id);
+
           setQuestions(questionsData);
         } else {
           console.error("Failed to fetch questions.");

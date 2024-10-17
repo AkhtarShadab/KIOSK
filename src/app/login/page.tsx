@@ -31,7 +31,6 @@ export default function LoginPage() {
         document.cookie = `auth_token=${data.token}; path=/;`;
         console.log("Auth Token Cookie:", document.cookie);
 
-
         setLoginStatus("Login successful!");
 
         // Perform redirection after a short delay to allow cookie to be set
@@ -43,7 +42,7 @@ export default function LoginPage() {
             console.log("Redirecting to /activity...");
             router.push("/activity");
           }
-        });
+        }, 1000); // Added delay for redirection
       } else {
         const errorData = await response.json();
         setLoginStatus(errorData.error || "Invalid login credentials!");
@@ -89,6 +88,18 @@ export default function LoginPage() {
 
           {/* Display Login Status */}
           {loginStatus && <p className="text-center mt-4 text-red-500">{loginStatus}</p>}
+          
+          {/* Conditionally render button to navigate to /activity */}
+          {loginStatus === "Login successful!" && (
+            <RainbowButton onClick={() => router.push("/activity")}>
+              Go to Activity
+            </RainbowButton>
+          )}
+
+          {/* Register Now button, always visible */}
+          <RainbowButton onClick={() => router.push("/")}>
+            Register Now
+          </RainbowButton>
         </div>
       </div>
     </div>
