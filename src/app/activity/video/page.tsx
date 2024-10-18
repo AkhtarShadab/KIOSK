@@ -171,14 +171,6 @@ export default function VideosPage() {
               Stop Recording
             </RainbowButton>
           </div>
-
-          {/* Preview of Recorded Video */}
-          {videoFile && (
-            <div className="mt-4">
-              <h4 className="text-xl font-semibold">Recorded Video Preview:</h4>
-              <video width="320" height="240" controls src={URL.createObjectURL(videoFile)} />
-            </div>
-          )}
         </div>
       )}
     </div>

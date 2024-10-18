@@ -1,6 +1,6 @@
 const { default: mongoose } = require('mongoose');
 
-const MONGO_URI = "mongodb+srv://Admin:Admin123@cluster0.83b3qvq.mongodb.net/MTP?retryWrites=true&w=majority&appName=Cluster0";
+const MONGO_URI = "mongodb+srv://Admin:Admin123@cluster0.ngjx5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 if (!MONGO_URI) {
   throw new Error("Please define the MONGO_URI environment variable inside .env.local");

@@ -62,11 +62,11 @@ export default function VideoAnalysis() {
       {loading && <p>Loading...</p>}
       {error && <p className="text-red-500">{error}</p>}
 
-      <div className="grid grid-cols-1 gap-4 mt-8">
+      <div className="grid grid-cols-2 gap-4 mt-8">
         {videos.videoUpload1 && (
           <div>
             <h4 className="text-lg font-semibold mb-2">Recording 1</h4>
-            <video controls className="rounded-lg shadow-lg" width="600">
+            <video controls className="rounded-lg shadow-lg" width="100%">
               {/* Use the direct path from public/uploads */}
               <source src={videos.videoUpload1} type="video/webm" />
               Your browser does not support the video tag.
@@ -77,7 +77,7 @@ export default function VideoAnalysis() {
         {videos.videoUpload2 && (
           <div>
             <h4 className="text-lg font-semibold mb-2">Recording 2</h4>
-            <video controls className="rounded-lg shadow-lg" width="600">
+            <video controls className="rounded-lg shadow-lg" width="100%">
               {/* Use the direct path from public/uploads */}
               <source src={videos.videoUpload2} type="video/webm" />
               Your browser does not support the video tag.
@@ -90,9 +90,9 @@ export default function VideoAnalysis() {
         )}
       </div>
 
-      <div className="absolute bottom-8 right-8 text-sm">
-        <RainbowButton onClick={() => router.push("/activity/results/question")}>
-          Go to Results
+      <div className="absolute top-8 right-8 text-sm">
+        <RainbowButton onClick={() => router.push("/activity")}>
+          Go to Activity
         </RainbowButton>
       </div>
     </div>
